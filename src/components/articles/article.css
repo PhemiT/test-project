@@ -1,0 +1,51 @@
+.container {
+    background: #f3f4f6;
+    padding: 80px 0;
+    margin-top: 80px;
+}
+
+.test__articles {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.articles__text {
+    color: #1e3a8a;
+}
+
+.articles__text h1 {
+    font-size: 55px;
+}
+
+.articles__article {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 40px;
+}
+
+.articles__article > article {
+    background: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.articles__article > article > h3 {
+    font-size: 15px;
+}
+
+.articles__article > article p:nth-child(2) {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.articles__article > article p:nth-child(2) span {
+    text-decoration: underline;
+}
+
+.articles__article > article p:nth-child(3) {
+    margin-top: 20px;
+    font-size: 12px;
+}

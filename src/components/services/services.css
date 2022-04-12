@@ -1,0 +1,39 @@
+.test__services {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.services__text {
+    color: #1e3a8a;
+}
+
+.services__text h1 {
+    font-size: 55px;
+}
+
+.services__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin-top: 45px;
+}
+
+.services__content > h4 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px 60px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    background: #1e3a8a;
+}
+
+.services__content > h4:nth-child(2) {
+    background: #934e1e;
+}
+
+.services__content > h4:nth-child(3) {
+    background: #7f1d1d;
+}

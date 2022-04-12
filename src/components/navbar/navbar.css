@@ -1,0 +1,31 @@
+.test__navbar {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.navbar__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.navbar__logo > img {
+    height: 20px;
+    width: 20px;
+}
+
+.navbar__links > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
